@@ -1,0 +1,46 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+    background-color: rgb(226, 27, 27, 0.4);
+    padding: 0;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    margin: 0;
+    background-color: rgb(158, 255, 30,0.2);
+    padding: 20px 0px;
+}
+
+.header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+form {
+    font-size: 1.2rem;
+    color:seashell;
+    margin: auto;
+    width: 40%;
+    background-color: rgba(8, 6, 87, 0.678);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.form-group>input , select, .submit-btn, textarea {
+    width: 100%;
+    height: 2rem;
+    border-radius: 5px;
+    margin: 5px 2px;
+    padding: 3px;
+}
+
+select, .submit-btn{
+    height: 2.3rem;
+}
+
+textarea {
+    height: 5rem;
+    resize: none;
+}
+
